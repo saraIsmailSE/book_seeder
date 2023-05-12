@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         //$this->call(BookSeeder::class);
-        $this->call(booksMediaSeeder::class);
+        //$this->call(booksMediaSeeder::class);
+        $this->call(SaraBooksMediaSeeder::class);
+        $this->call(HebhBooksMediaSeeder::class);
     }
 }
